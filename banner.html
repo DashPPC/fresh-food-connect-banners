@@ -1,4 +1,3 @@
-<!-- banner.html -->
 <style>
   html, body {
     margin: 0;
@@ -7,34 +6,37 @@
   }
 
   .banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 1rem;
-    padding: 1.5rem;
+    background: #2e7d32;
     text-align: center;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner-inner {
+    max-width: 500px;
+    width: 100%;
   }
 
   @media (min-width: 768px) {
     .banner {
       padding: 1rem;
-      font-size: 0.9rem;
     }
   }
 
   @media (min-width: 1024px) {
     .banner {
       padding: 0.75rem;
-      font-size: 0.85rem;
     }
   }
 </style>
 
-<div class="banner" style="background:#2e7d32; color:#fff; text-align:center;">
-  <a href="https://bit.ly/3NUJteN" target="_blank" style="text-decoration:none;">
-    <img src="https://storage.googleapis.com/msgsndr/Tb7ffaCBQheR6rXvXCCt/media/666850cd8c684d4f4eb2a2be.jpeg"
-         alt="Share Your Bounty for Hunger Relief"
-         style="max-width:100%; height:auto; display:block; margin: 0 auto;">
-  </a>
+<div class="banner">
+  <div class="banner-inner">
+    <a href="https://bit.ly/3NUJteN" target="_blank" style="text-decoration:none;">
+      <img src="https://storage.googleapis.com/msgsndr/Tb7ffaCBQheR6rXvXCCt/media/666850cd8c684d4f4eb2a2be.jpeg"
+           alt="Share Your Bounty for Hunger Relief"
+           style="max-width:100%; height:auto; display:block; margin: 0 auto;">
+    </a>
+  </div>
 </div>
